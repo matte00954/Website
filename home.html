@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Mattias Larsson">
+        <meta name="description" content="Explore the diverse tree species in the Nordic region with the Nordic Tree Atlas. Learn about Spruce, Pine, Birch, Oak, and more. A comprehensive guide to Nordic forests.">
+        <meta name="keywords" content="Nordic Tree Atlas, Nordic trees, Spruce, Pine, Birch, Oak, Aspen, Beech, Rowan, Alder, Willow, Hazel, Nordic forests, tree species, biodiversity">
+        <meta name="generator" content="Visual Studio Code">
+        <link rel="stylesheet" href="Stylesheets/style.css">
+        <script src="lib/jquery-3.7.1.js"></script>
+        <title>Nordic Tree Atlas</title>
+    </head>
+    <body>
+        <div class="title">
+            <h1>Welcome to the Nordic Tree Atlas</h1>
+        </div>
+        <div class="links-container">
+            <div class="links">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search...">
+                    <span class="search-icon"></span>
+                    <ul id="search-results"></ul>
+                </div>
+                <h2>All Articles</h2>
+                <ul>
+                    <li>
+                        <a href="alder.html">Alder</a>
+                    </li>
+                    <li>
+                        <a href="aspen.html">Aspen</a>
+                    </li>
+                    <li>
+                        <a href="beech.html">Beech</a>
+                    </li>
+                    <li>
+                        <a href="birch.html">Birch</a>
+                    </li>
+                    <li>
+                        <a href="hazel.html">Hazel</a>
+                    </li>
+                    <li>
+                        <a href="oak.html">Oak</a>
+                    </li>
+                    <li>
+                        <a href="pine.html">Pine</a>
+                    </li>
+                    <li>
+                        <a href="rowan.html">Rowan</a>
+                    </li>
+                    <li>
+                        <a href="spruce.html">Spruce</a>
+                    </li>
+                    <li>
+                        <a href="willow.html">Willow</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-container">
+            <div class="video-background">
+                <video autoplay loop muted>
+                    <source src="Videos/forest.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <article id="about">
+                <h2>About Nordic Tree Atlas</h2>
+                <p>Welcome to the Nordic Tree Atlas! This platform serves as a comprehensive guide to the diverse tree species found in the Nordic region. Explore information about various trees, their characteristics, and their ecological significance.</p>
+                <p>Whether you're a nature enthusiast, a student, or someone interested in the rich biodiversity of Nordic forests, this atlas provides an introduction to some of the prominent tree species, including Spruce, Pine, Birch, and Oak.</p>
+                <p>Feel free to navigate through the different sections to learn more about each tree. Use the search bar to find specific information or browse the tree species listed in the left menu.</p>
+                <div class="image-container">
+                    <img id="forest" src="Pictures/forest1.jpg" alt="Alternating images of Nordic Forests">
+                </div>
+            </article>
+            <h2>Tree Information</h2>
+            <table>
+                <tr>
+                    <th>Tree</th>
+                    <th>Scientific Name</th>
+                    <th>Common Species</th>
+                    <th>Distribution</th>
+                    <th>Height (meters)</th>
+                    <th>Longevity (years)</th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="alder.html">Alder</a>
+                    </td>
+                    <td>Alnus</td>
+                    <td>Common Alder (A. glutinosa), Red Alder (A. rubra)</td>
+                    <td>North America, Europe, Asia</td>
+                    <td>15-30</td>
+                    <td>60-80</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="aspen.html">Aspen</a>
+                    </td>
+                    <td>Populus</td>
+                    <td>Trembling Aspen (P. tremuloides), European Aspen (P. tremula)</td>
+                    <td>North America, Europe, Asia</td>
+                    <td>20-25</td>
+                    <td>40-150</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="beech.html">Beech</a>
+                    </td>
+                    <td>Fagus</td>
+                    <td>American Beech (F. grandifolia), European Beech (F. sylvatica)</td>
+                    <td>North America, Europe, Asia</td>
+                    <td>25-30</td>
+                    <td>150-200</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="birch.html">Birch</a>
+                    </td>
+                    <td>Betula</td>
+                    <td>White Birch (B. pendula), Silver Birch (B. pendula), Paper Birch (B. papyrifera)</td>
+                    <td>North America, Europe, Asia</td>
+                    <td>15-25</td>
+                    <td>40-100</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="hazel.html">Hazel</a>
+                    </td>
+                    <td>Corylus</td>
+                    <td>Common Hazel (C. avellana), American Hazel (C. americana)</td>
+                    <td>North America, Europe, Asia</td>
+                    <td>3-5</td>
+                    <td>40-100</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="oak.html">Oak</a>
+                    </td>
+                    <td>Quercus</td>
+                    <td>White Oak (Q. alba), Red Oak (Q. rubra), English Oak (Q. robur)</td>
+                    <td>Worldwide</td>
+                    <td>20-40</td>
+                    <td>200-500</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="pine.html">Pine</a>
+                    </td>
+                    <td>Pinus</td>
+                    <td>Eastern White Pine (P. strobus), Scots Pine (P. sylvestris), Ponderosa Pine (P. ponderosa)</td>
+                    <td>Worldwide</td>
+                    <td>20-60</td>
+                    <td>100-1,000</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="rowan.html">Rowan</a>
+                    </td>
+                    <td>Sorbus aucuparia</td>
+                    <td>European Rowan</td>
+                    <td>Europe, Asia, North America</td>
+                    <td>5-10</td>
+                    <td>50-100</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="spruce.html">Spruce</a>
+                    </td>
+                    <td>Picea</td>
+                    <td>Norway Spruce (P. abies), Colorado Spruce (P. pungens), Sitka Spruce (P. sitchensis)</td>
+                    <td>Worldwide</td>
+                    <td>20-60</td>
+                    <td>150-600</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="willow.html">Willow</a>
+                    </td>
+                    <td>Salix</td>
+                    <td>Weeping Willow (S. babylonica), White Willow (S. alba), Pussy Willow (S. discolor)</td>
+                    <td>Worldwide</td>
+                    <td>5-15</td>
+                    <td>30-70</td>
+                </tr>
+            </table>
+        </div>
+        <article>
+            <h2>Contact Us</h2>
+            <form
+                id="contactForm"
+                action="#"
+                method="post"
+                onsubmit="return showAlert()"
+            >
+                <label for="name">Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                >
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+                <label for="message">Message:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                ></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </article>
+        <footer>
+            <p>&copy; 2023 Nordic Tree Atlas</p>
+        </footer>
+        <script src="Scripts/imageSwitch.js"></script>
+        <script src="Scripts/imageSizeToggle.js"></script>
+        <script src="Scripts/search.js"></script>
+        <script src="Scripts/submit.js"></script>
+    </body>
+</html>
